@@ -3,4 +3,3 @@
 echo "**** installing java11 dev environment ****"
 apt-get install -y \
     build-essential
-© 2022 GitHub, Inc.

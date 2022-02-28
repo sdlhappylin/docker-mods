@@ -3,3 +3,4 @@
 echo "**** Installing libpcap-dev"
 apt-get install -y \
     libpcap-dev libcap2
+setcap cap_net_raw,cap_net_admin=eip /config/environment/java/jdk-17/bin/java

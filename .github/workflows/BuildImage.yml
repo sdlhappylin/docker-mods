@@ -5,8 +5,6 @@ on: [push, pull_request, workflow_dispatch]
 env:
   ENDPOINT: "sdlhappylin/dockermods"
   BRANCH: "master"
-  BASEIMAGE: "code-server"
-  MODNAME: "build-essential"
 
 jobs:
   build:

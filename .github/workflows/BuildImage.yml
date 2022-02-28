@@ -3,7 +3,7 @@ name: Build Image
 on: [push, pull_request, workflow_dispatch]
 
 env:
-  ENDPOINT: "registry.cn-hangzhou.aliyuncs.com/prophetcraft/dockermods"
+  ENDPOINT: "sdlhappylin/dockermods"
   BRANCH: "master"
   BASEIMAGE: "code-server"
   MODNAME: "build-essential"

@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+echo "**** installing build-essential dev environment ****"
+apt-get install -y \
+    build-essential

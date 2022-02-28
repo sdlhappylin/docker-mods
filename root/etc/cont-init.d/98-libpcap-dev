@@ -2,4 +2,4 @@
 
 echo "**** Installing libpcap-dev"
 apt-get install -y \
-    libpcap-dev
+    libpcap-dev libcap2
